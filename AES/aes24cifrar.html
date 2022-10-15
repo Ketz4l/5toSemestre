@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/EstiloIndex.css">
+    <link rel="stylesheet" href="CSS/aesMensaje.css">
+    <title>mensaje aes</title>
+</head>
+<body>
+    <div class="rectangulo1"></div>
+    
+    <div class="titulo">
+        cifrado aes
+    </div>
+    <label class="etiMensaje">
+        Mensaje:
+    </label>
+    <input type="text" name="password" id="pass" class="passMensaje" placeholder="Clave(24 caracteres)">
+
+
+    <label class="etiClave">
+        Clave:
+    </label>
+    <input type="text" name="mensaje" id="Texto" class="passClave" placeholder="Cifrado">
+
+    <div class="rectangulo4Cifrar"></div>
+
+    <a href="index.html">
+        <input type="button" id="botonDescifrar" class="botonCifrarRedirect" value="inicio">
+    </a>
+    </div>
+
+    <input type="button" id="botonCifrar" class="botonCifrar" value="Cifrar" onclick="cifrar24()">
+
+</div>
+<a href="aes24descifrar.html">
+    <input type="button" id="botonDescifrar" class="botonDescifrar" value="Descifrar">
+</a>
+<label id="contenido" class="contenido"></label>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+<script src="JS/aesCifrar.js"></script>
+
+</body>
+</html>

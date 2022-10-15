@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/aesMensaje.css">
+    <title>Mensaje AES</title>
+
+
+</head>
+<body>
+    <div class="rectangulo1">
+    </div>    
+    <div class="titulo">
+        Descifrado AES
+    </div>
+
+    <label class="etiMensaje">
+        cifrado:
+    </label>
+    <input type="text" name="mensaje" id="Texto" class="passCifrado" placeholder="Cifrado">
+    <label class="etiClave">
+        clave:
+    </label>
+
+    <input type="text" name="password" id="pass" class="passMensaje" placeholder="Clave (16 caracteres)">
+
+    </div>
+    <a>
+        <input type="button" id="botonDescifrar1" class="botonDescifrar1" value="Descifrar">
+    </a>
+    <a href="aes16cifrado.html">
+    <input type="button" id="botonCifrar" class="botonCifrar1" value="Cifrar">
+    </a>
+
+    <label id="contenido" class="contenido"></label>
+
+    <script src="js/aesDescifrar.js"></script>
+
+</body>
+</html>

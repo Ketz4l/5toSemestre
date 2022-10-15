@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/EstiloIndex.css">
+    <link rel="stylesheet" href="css/aesMensaje.css">
+    <title>Descifrar 24</title>
+</head>
+<body>
+    <div class="rectangulo1">
+    </div>    
+    <div class="titulo">
+        Descifrar AES
+    </div>
+    
+    <label class="etiMensaje">
+        Descifrado:
+    </label>
+    <input type="text" name="password" id="pass" class="passCifrado1" placeholder="Cifrado">
+
+
+    <label class="etiClave">
+        Clave:
+    </label>
+    <input type="text" name="mensaje" id="Texto" class="passMensaje1" placeholder="Clave (24 caracteres)">
+    </div>
+
+    <input type="button" id="botonDescifrar1" class="botonDescifrar1" value="descifrar" onclick="descifrar24()">
+
+    </div>
+
+    <a href="index.html">
+        <input type="button" id="botonInicio" class="botonCifrarRedirect" value="Inicio">
+    </a>
+    <label id="txtPlano" class="txtPlano"></label>
+    <script src="JS/aesDescifrar.js"></script>
+</body>
+</html>
